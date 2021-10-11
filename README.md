@@ -5,14 +5,12 @@
 ### Installation
 ```bash
 git clone https://github.com/moralfager/coinmarketpy.git
-cd src
-python3 setup.py install
 ```
 
 ### Usage
 
 ```python
-from coinmarketpy import CoinMarket
+from coinmarketpy.src.coinmarket import CoinMarket
 cm = CoinMarket()
 ```
 
